@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "cores.css";
+
+@font-face {
+    font-family: mario;
+    src: url(Fontes/SuperMario64.ttf);
+}
+
+body{
+    color: var(--Corpreto);
+    font-family: mario;
+    background-color: var(--beige);
+}
+
