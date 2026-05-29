@@ -13,6 +13,16 @@
 </head>
 
 <body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#LellisA">Lellis Ito - Turma A</a></li>
+                <li><a href="#LellisB">Lellis Ito - Turma B</a></li>
+                <li><a href="#AmaralA">Amaral - Turma A</a></li>
+                <li><a href="#AmaralB">Amaral - Turma B</a></li>
+            </ul>
+        </nav>
+    </header>
     <div>
         <picture>
             <source media="(max-width:765px)" srcset="img/banner-750-450.svg">
@@ -126,6 +136,15 @@
             </div>
         </footer>
     </section>
+
+    <script>
+        function contarQuantidadeAlunosTurma(lista, qtd) {
+            const listaAlunos = document.getElementById(lista);
+            const quantidade = listaAlunos.querySelectorAll("li").length;
+            document.getElementById(qtd).textContent = quantidade;
+        }
+        contarQuantidadeAlunosTurma('alunosLellis_A', 'qtdAlunosLellis_A');
+    </script>
 
 
 </body>

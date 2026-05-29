@@ -12,4 +12,7 @@ body{
     font-family: theblack;
     background-color: var(--black);
 }
-
+nav{
+    color: aliceblue;
+    padding: 30px 10px;
+}
